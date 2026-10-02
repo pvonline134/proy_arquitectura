@@ -1,0 +1,13 @@
+
+ Performance counter stats for './bin/norm_scalar data/bench/in_100000.dat /tmp/o.dat 3000':
+
+     4 514 438 197      cycles                                                                
+     9 012 915 508      instructions                                                          
+            85 366      cache-misses                                                          
+
+       1,091110883 seconds time elapsed
+
+       1,083445000 seconds user
+       0,002000000 seconds sys
+
+

@@ -1,0 +1,25 @@
+modo=0 N=   0 mean=0            (ref 0           ) var=0            (ref 0           ) min=0 max=0 OK
+modo=0 N=   1 mean=1310.57      (ref 1310.57     ) var=0            (ref 0           ) min=1310.57 max=1310.57 OK
+modo=0 N=   7 mean=262.571      (ref 262.571     ) var=282426       (ref 282426      ) min=-208.286 max=1144.14 OK
+modo=0 N=   8 mean=-215.75      (ref -215.75     ) var=513777       (ref 513777      ) min=-1151.14 max=793.714 OK
+modo=0 N=  15 mean=181.762      (ref 181.762     ) var=444359       (ref 444359      ) min=-934.143 max=1386 OK
+modo=0 N=  16 mean=-227.545     (ref -227.545    ) var=597607       (ref 597607      ) min=-1329.43 max=1382 OK
+modo=0 N=1000 mean=6.2653       (ref 6.2653      ) var=656336       (ref 656336      ) min=-1420.71 max=1424.71 OK
+modo=0 N=1001 mean=-9.40831     (ref -9.40831    ) var=652950       (ref 652950      ) min=-1422.86 max=1423.57 OK
+modo=1 N=   0 mean=0            (ref 0           ) var=0            (ref 0           ) min=0 max=0 OK
+modo=1 N=   1 mean=-3.25        (ref -3.25       ) var=0            (ref 0           ) min=-3.25 max=-3.25 OK
+modo=1 N=   7 mean=-3.25        (ref -3.25       ) var=0            (ref 0           ) min=-3.25 max=-3.25 OK
+modo=1 N=   8 mean=-3.25        (ref -3.25       ) var=0            (ref 0           ) min=-3.25 max=-3.25 OK
+modo=1 N=  15 mean=-3.25        (ref -3.25       ) var=0            (ref 0           ) min=-3.25 max=-3.25 OK
+modo=1 N=  16 mean=-3.25        (ref -3.25       ) var=0            (ref 0           ) min=-3.25 max=-3.25 OK
+modo=1 N=1000 mean=-3.25        (ref -3.25       ) var=0            (ref 0           ) min=-3.25 max=-3.25 OK
+modo=1 N=1001 mean=-3.25        (ref -3.25       ) var=0            (ref 0           ) min=-3.25 max=-3.25 OK
+modo=2 N=   0 mean=0            (ref 0           ) var=0            (ref 0           ) min=0 max=0 OK
+modo=2 N=   1 mean=-2e+29       (ref -2e+29      ) var=0            (ref 0           ) min=-2e+29 max=-2e+29 OK
+modo=2 N=   7 mean=-1.14286e+29 (ref -1.14286e+29) var=inf          (ref inf         ) min=-1e+30 max=8e+29 OK
+modo=2 N=   8 mean=-2.5e+28     (ref -2.5e+28    ) var=inf          (ref inf         ) min=-1e+30 max=8e+29 OK
+modo=2 N=  15 mean=-4e+28       (ref -4e+28      ) var=inf          (ref inf         ) min=-1e+30 max=1e+30 OK
+modo=2 N=  16 mean=-2.5e+28     (ref -2.5e+28    ) var=inf          (ref inf         ) min=-1e+30 max=1e+30 OK
+modo=2 N=1000 mean=0            (ref 0           ) var=inf          (ref inf         ) min=-1e+30 max=1e+30 OK
+modo=2 N=1001 mean=-1.998e+26   (ref -1.998e+26  ) var=inf          (ref inf         ) min=-1e+30 max=1e+30 OK
+Todo pasa

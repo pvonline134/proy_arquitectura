@@ -1,0 +1,9 @@
+N=   0  normaliza OK, copia(std=0) OK, suma=0.0000 ref=0.0000
+N=   1  normaliza OK, copia(std=0) OK, suma=1310.5714 ref=1310.5714
+N=   7  normaliza OK, copia(std=0) OK, suma=1838.0000 ref=1838.0000
+N=   8  normaliza OK, copia(std=0) OK, suma=-1726.0000 ref=-1725.9998
+N=  15  normaliza OK, copia(std=0) OK, suma=2726.4285 ref=2726.4287
+N=  16  normaliza OK, copia(std=0) OK, suma=-3640.7144 ref=-3640.7144
+N=1000  normaliza OK, copia(std=0) OK, suma=6265.2812 ref=6265.2949
+N=1001  normaliza OK, copia(std=0) OK, suma=-9417.7217 ref=-9417.7197
+Todo pasa

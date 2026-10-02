@@ -1,0 +1,68 @@
++break sum_array.sum_loop
+Punto de interrupción 1 at 0x1d15: file asm/scalar/stats_scalar.asm, line 41.
++break compute_stats.cs_mean
+Punto de interrupción 2 at 0x1d5e: file asm/scalar/stats_scalar.asm, line 100.
++break normalize_array.norm_done
+Punto de interrupción 3 at 0x1e0f: file asm/scalar/stats_scalar.asm, line 197.
++run
+[Depuración de hilo usando libthread_db enabled]
+Using host libthread_db library "/lib/x86_64-linux-gnu/libthread_db.so.1".
+
+Breakpoint 1, sum_array.sum_loop () at asm/scalar/stats_scalar.asm:41
+41	    cmp     eax, esi           ; i < n ?  (comparacion con signo -> jge)
++info registers rdi rsi rax
+rdi            0x55555555a4c0      93824992257216
+rsi            0x10                16
+rax            0x0                 0
++stepi 4
+45	    inc     eax                ; i++
++x/i $pc
+=> 0x555555555d22 <sum_array.sum_loop+13>:	inc    %eax
++p $xmm1.v4_float
+$1 = {1, 0, 0, 0}
++p $xmm0.v4_float
+$2 = {1, 0, 0, 0}
++continue
+
+Breakpoint 1, sum_array.sum_loop () at asm/scalar/stats_scalar.asm:41
+41	    cmp     eax, esi           ; i < n ?  (comparacion con signo -> jge)
++stepi 4
+45	    inc     eax                ; i++
++p $xmm0.v4_float
+$3 = {3, 0, 0, 0}
++p $rax
+$4 = 1
++delete 1
++continue
+
+Breakpoint 2, compute_stats.cs_mean () at asm/scalar/stats_scalar.asm:100
+100	    cvtsi2ss xmm4, esi             ; xmm4 = (float) n  (entero -> float)
++p $rax
+$5 = 16
++p $xmm0.v4_float
+$6 = {136, 0, 0, 0}
++p $xmm1.v4_float
+$7 = {1, 0, 0, 0}
++p $xmm2.v4_float
+$8 = {16, 0, 0, 0}
++continue
+
+Breakpoint 3, normalize_array.norm_done () at asm/scalar/stats_scalar.asm:197
+197	    ret
++p $xmm0.v4_float[0]
+$9 = 8.5
++p $xmm1.v4_float[0]
+$10 = 4.60977221
++p/x $rsi
+$11 = 0x555555559480
++x/8fw $rsi
+0x555555559480:	-1.6269784	-1.41004801	-1.1931175	-0.97618705
+0x555555559490:	-0.759256601	-0.542326152	-0.325395674	-0.108465232
++x/16fw $rsi
+0x555555559480:	-1.6269784	-1.41004801	-1.1931175	-0.97618705
+0x555555559490:	-0.759256601	-0.542326152	-0.325395674	-0.108465232
+0x5555555594a0:	0.108465232	0.325395674	0.542326152	0.759256601
+0x5555555594b0:	0.97618705	1.1931175	1.41004801	1.6269784
++continue
+[Inferior 1 (process 22904) exited normally]
++set logging enabled off

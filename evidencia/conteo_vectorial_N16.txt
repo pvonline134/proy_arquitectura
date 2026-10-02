@@ -1,0 +1,54 @@
+Punto de interrupción 1 at 0x1d1f: file asm/vector/stats_vector.asm, line 58.
+Punto de interrupción 2 at 0x1d43: file asm/vector/stats_vector.asm, line 77.
+Punto de interrupción 3 at 0x1d80: file asm/vector/stats_vector.asm, line 139.
+Punto de interrupción 4 at 0x1de3: file asm/vector/stats_vector.asm, line 175.
+Punto de interrupción 5 at 0x1e25: file asm/vector/stats_vector.asm, line 210.
+Punto de interrupción 6 at 0x1e52: file asm/vector/stats_vector.asm, line 230.
+Punto de interrupción 7 at 0x1ecb: file asm/vector/stats_vector.asm, line 302.
+Punto de interrupción 8 at 0x1ee6: file asm/vector/stats_vector.asm, line 315.
+[Depuración de hilo usando libthread_db enabled]
+Using host libthread_db library "/lib/x86_64-linux-gnu/libthread_db.so.1".
+N        = 16
+Suma     = 136.000000
+Media    = 8.500000
+Varianza = 21.250000
+StdDev   = 4.609772
+Minimo   = 1.000000
+Maximo   = 16.000000
+Tiempo promedio del kernel (1 rep.): 2.495098 ms
+Desv. estandar del tiempo         : 0.000000 ms
+Ciclos TSC promedio del kernel    : 6035476 +- 0
+[Inferior 1 (process 22947) exited normally]
+Num     Type           Disp Enb Address            What
+1       breakpoint     keep y   0x0000555555555d1f asm/vector/stats_vector.asm:58
+	breakpoint already hit 3 times
+        silent
+        continue
+2       breakpoint     keep y   0x0000555555555d43 asm/vector/stats_vector.asm:77
+	breakpoint already hit 1 time
+        silent
+        continue
+3       breakpoint     keep y   0x0000555555555d80 asm/vector/stats_vector.asm:139
+	breakpoint already hit 3 times
+        silent
+        continue
+4       breakpoint     keep y   0x0000555555555de3 asm/vector/stats_vector.asm:175
+	breakpoint already hit 1 time
+        silent
+        continue
+5       breakpoint     keep y   0x0000555555555e25 asm/vector/stats_vector.asm:210
+	breakpoint already hit 3 times
+        silent
+        continue
+6       breakpoint     keep y   0x0000555555555e52 asm/vector/stats_vector.asm:230
+	breakpoint already hit 1 time
+        silent
+        continue
+7       breakpoint     keep y   0x0000555555555ecb asm/vector/stats_vector.asm:302
+	breakpoint already hit 3 times
+        silent
+        continue
+8       breakpoint     keep y   0x0000555555555ee6 asm/vector/stats_vector.asm:315
+	breakpoint already hit 1 time
+        silent
+        continue

@@ -1,0 +1,34 @@
+Punto de interrupción 1 at 0x1d15: file asm/scalar/stats_scalar.asm, line 41.
+Punto de interrupción 2 at 0x1d45: file asm/scalar/stats_scalar.asm, line 89.
+Punto de interrupción 3 at 0x1d80: file asm/scalar/stats_scalar.asm, line 119.
+Punto de interrupción 4 at 0x1de3: file asm/scalar/stats_scalar.asm, line 178.
+[Depuración de hilo usando libthread_db enabled]
+Using host libthread_db library "/lib/x86_64-linux-gnu/libthread_db.so.1".
+N        = 16
+Suma     = 136.000000
+Media    = 8.500000
+Varianza = 21.250000
+StdDev   = 4.609772
+Minimo   = 1.000000
+Maximo   = 16.000000
+Tiempo promedio del kernel (1 rep.): 7.951514 ms
+Desv. estandar del tiempo         : 0.000000 ms
+Ciclos TSC promedio del kernel    : 19235493 +- 0
+[Inferior 1 (process 22934) exited normally]
+Num     Type           Disp Enb Address            What
+1       breakpoint     keep y   0x0000555555555d15 asm/scalar/stats_scalar.asm:41
+	breakpoint already hit 17 times
+        silent
+        continue
+2       breakpoint     keep y   0x0000555555555d45 asm/scalar/stats_scalar.asm:89
+	breakpoint already hit 17 times
+        silent
+        continue
+3       breakpoint     keep y   0x0000555555555d80 asm/scalar/stats_scalar.asm:119
+	breakpoint already hit 17 times
+        silent
+        continue
+4       breakpoint     keep y   0x0000555555555de3 asm/scalar/stats_scalar.asm:178
+	breakpoint already hit 17 times
+        silent
+        continue

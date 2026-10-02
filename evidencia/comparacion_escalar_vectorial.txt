@@ -1,0 +1,10 @@
+caso 1: error max escalar vs vectorial = 0.00e+00  PASA
+caso 7: error max escalar vs vectorial = 0.00e+00  PASA
+caso 8: error max escalar vs vectorial = 5.96e-08  PASA
+caso 15: error max escalar vs vectorial = 1.19e-07  PASA
+caso 16: error max escalar vs vectorial = 1.15e-07  PASA
+caso 1000: error max escalar vs vectorial = 2.13e-07  PASA
+caso const: error max escalar vs vectorial = 0.00e+00  PASA
+caso const01: error max escalar vs vectorial = 0.00e+00  PASA
+caso neg: error max escalar vs vectorial = 7.11e-07  PASA
+caso ext: error max escalar vs vectorial = 2.98e-08  PASA

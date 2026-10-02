@@ -1,0 +1,80 @@
++break sum_array.sum_vec_loop
+Punto de interrupción 1 at 0x1d1f: file asm/vector/stats_vector.asm, line 58.
++break compute_stats.cs_p1_reduce
+Punto de interrupción 2 at 0x1d9b: file asm/vector/stats_vector.asm, line 151.
++break normalize_array.norm_done
+Punto de interrupción 3 at 0x1f25: file asm/vector/stats_vector.asm, line 342.
++run
+[Depuración de hilo usando libthread_db enabled]
+Using host libthread_db library "/lib/x86_64-linux-gnu/libthread_db.so.1".
+
+Breakpoint 1, sum_array.sum_vec_loop () at asm/vector/stats_vector.asm:58
+58	    cmp     eax, ecx
++info registers rdi rsi rax rcx
+rdi            0x55555555a4c0      93824992257216
+rsi            0x10                16
+rax            0x0                 0
+rcx            0x10                16
++stepi 4
+62	    add     eax, 8                 ; avanza 8 floats = 32 bytes
++x/i $pc
+=> 0x555555555d2c <sum_array.sum_vec_loop+13>:	add    $0x8,%eax
++p $ymm1.v8_float
+$1 = {1, 2, 3, 4, 5, 6, 7, 8}
++p $ymm0.v8_float
+$2 = {1, 2, 3, 4, 5, 6, 7, 8}
++continue
+
+Breakpoint 1, sum_array.sum_vec_loop () at asm/vector/stats_vector.asm:58
+58	    cmp     eax, ecx
++stepi 4
+62	    add     eax, 8                 ; avanza 8 floats = 32 bytes
++p $ymm0.v8_float
+$3 = {10, 12, 14, 16, 18, 20, 22, 24}
++p $rax
+$4 = 8
++delete 1
++continue
+
+Breakpoint 2, compute_stats.cs_p1_reduce () at asm/vector/stats_vector.asm:151
+151	    vextractf128 xmm3, ymm0, 1
++p $ymm0.v8_float
+$5 = {10, 12, 14, 16, 18, 20, 22, 24}
++p $ymm1.v8_float
+$6 = {1, 1, 1, 1, 1, 1, 1, 1}
++p $ymm2.v8_float
+$7 = {9, 10, 11, 12, 13, 14, 15, 16}
++stepi 4
+157	    vextractf128 xmm3, ymm1, 1     ; xmm3 = carriles 4-7
++p $xmm0.v4_float
+$8 = {136, 136, 136, 136}
++stepi 6
+165	    vextractf128 xmm3, ymm2, 1
++p $xmm1.v4_float
+$9 = {1, 1, 1, 1}
++stepi 6
+compute_stats.cs_p1_tail () at asm/vector/stats_vector.asm:175
+175	    cmp     eax, esi
++p $xmm2.v4_float
+$10 = {16, 16, 15, 16}
++continue
+
+Breakpoint 3, normalize_array.norm_done () at asm/vector/stats_vector.asm:342
+342	    vzeroupper
++p $xmm0.v4_float[0]
+$11 = 8.5
++p $xmm1.v4_float[0]
+$12 = 4.60977221
++p/x $rsi
+$13 = 0x555555559480
++x/8fw $rsi
+0x555555559480:	-1.6269784	-1.41004801	-1.1931175	-0.97618705
+0x555555559490:	-0.759256601	-0.542326152	-0.325395674	-0.108465232
++x/16fw $rsi
+0x555555559480:	-1.6269784	-1.41004801	-1.1931175	-0.97618705
+0x555555559490:	-0.759256601	-0.542326152	-0.325395674	-0.108465232
+0x5555555594a0:	0.108465232	0.325395674	0.542326152	0.759256601
+0x5555555594b0:	0.97618705	1.1931175	1.41004801	1.6269784
++continue
+[Inferior 1 (process 9828) exited normally]
++set logging enabled off

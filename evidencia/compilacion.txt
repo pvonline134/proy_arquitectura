@@ -1,0 +1,5 @@
+gcc -std=gnu11 -Wall -Wextra -O2 -g -Iinclude -c src/driver.c -o obj/driver.o
+nasm -f elf64 -g -F dwarf asm/scalar/stats_scalar.asm -o obj/stats_scalar.o
+gcc -std=gnu11 -Wall -Wextra -O2 -g -o bin/norm_scalar obj/driver.o obj/stats_scalar.o -lm
+nasm -f elf64 -g -F dwarf asm/vector/stats_vector.asm -o obj/stats_vector.o
+gcc -std=gnu11 -Wall -Wextra -O2 -g -o bin/norm_vector obj/driver.o obj/stats_vector.o -lm

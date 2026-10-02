@@ -1,0 +1,42 @@
+===== scalar | N = 5e7 =====
+N        = 50000000
+Suma     = 225478.640625
+Media    = 0.004510
+Varianza = 2913.898682
+StdDev   = 53.980541
+Minimo   = -100.000000
+Maximo   = 100.000000
+Tiempo promedio del kernel (1 rep.): 198.574971 ms
+Desv. estandar del tiempo         : 0.000000 ms
+Ciclos TSC promedio del kernel    : 480324878 +- 0
+campo          referencia       obtenido     error rel.  resultado
+n         50000000.00000050000000.000000              0  OK
+sum         225572.779211  225478.641000     0.00041733  FALLA
+mean             0.004511       0.004510    0.000417319  FALLA
+var           3333.797073    2913.898680       0.125952  FALLA
+stddev          57.739043      53.980541      0.0650946  FALLA
+min           -100.000000    -100.000000              0  OK
+max            100.000000     100.000000              0  OK
+
+RESULTADO GENERAL: FALLA
+===== vector | N = 5e7 =====
+N        = 50000000
+Suma     = 225603.156250
+Media    = 0.004512
+Varianza = 3315.304932
+StdDev   = 57.578686
+Minimo   = -100.000000
+Maximo   = 100.000000
+Tiempo promedio del kernel (1 rep.): 64.961117 ms
+Desv. estandar del tiempo         : 0.000000 ms
+Ciclos TSC promedio del kernel    : 157129659 +- 0
+campo          referencia       obtenido     error rel.  resultado
+n         50000000.00000050000000.000000              0  OK
+sum         225572.779211  225603.156000    0.000134665  FALLA
+mean             0.004511       0.004512     0.00013469  FALLA
+var           3333.797073    3315.304930     0.00554687  FALLA
+stddev          57.739043      57.578686     0.00277727  FALLA
+min           -100.000000    -100.000000              0  OK
+max            100.000000     100.000000              0  OK
+
+RESULTADO GENERAL: FALLA

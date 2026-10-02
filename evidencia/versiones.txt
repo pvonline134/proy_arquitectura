@@ -1,0 +1,5 @@
+NASM version 2.16.01
+gcc (Ubuntu 13.3.0-6ubuntu2~24.04.1) 13.3.0
+GNU gdb (Ubuntu 15.1-1ubuntu1~24.04.1) 15.1
+perf version 7.0.14
+kernel 7.0.0-34-generic

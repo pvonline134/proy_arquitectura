@@ -1,0 +1,464 @@
+===== scalar | caso 0 =====
+Aviso: N = 0, el arreglo esta vacio. Los estadisticos se reportan como 0.
+N        = 0
+Suma     = 0.000000
+Media    = 0.000000
+Varianza = 0.000000
+StdDev   = 0.000000
+Minimo   = 0.000000
+Maximo   = 0.000000
+Tiempo promedio del kernel (1 rep.): 0.000146 ms
+Desv. estandar del tiempo         : 0.000000 ms
+Ciclos TSC promedio del kernel    : 144 +- 0
+campo          referencia       obtenido     error rel.  resultado
+n                0.000000       0.000000              0  OK
+sum              0.000000       0.000000              0  OK
+mean             0.000000       0.000000              0  OK
+var              0.000000       0.000000              0  OK
+stddev           0.000000       0.000000              0  OK
+min              0.000000       0.000000              0  OK
+max              0.000000       0.000000              0  OK
+
+RESULTADO GENERAL: PASA
+===== scalar | caso 1 =====
+N        = 1
+Suma     = -48.975803
+Media    = -48.975803
+Varianza = 0.000000
+StdDev   = 0.000000
+Minimo   = -48.975803
+Maximo   = -48.975803
+Tiempo promedio del kernel (1 rep.): 0.000129 ms
+Desv. estandar del tiempo         : 0.000000 ms
+Ciclos TSC promedio del kernel    : 167 +- 0
+campo          referencia       obtenido     error rel.  resultado
+n                1.000000       1.000000              0  OK
+sum            -48.975803     -48.975803    5.05471e-10  OK
+mean           -48.975803     -48.975803    5.05471e-10  OK
+var              0.000000       0.000000              0  OK
+stddev           0.000000       0.000000              0  OK
+min            -48.975803     -48.975803    5.05471e-10  OK
+max            -48.975803     -48.975803    5.05471e-10  OK
+
+RESULTADO GENERAL: PASA
+===== scalar | caso 7 =====
+N        = 7
+Suma     = -51.566483
+Media    = -7.366641
+Varianza = 2926.372559
+StdDev   = 54.095959
+Minimo   = -73.133064
+Maximo   = 88.497307
+Tiempo promedio del kernel (1 rep.): 0.000179 ms
+Desv. estandar del tiempo         : 0.000000 ms
+Ciclos TSC promedio del kernel    : 254 +- 0
+campo          referencia       obtenido     error rel.  resultado
+n                7.000000       7.000000              0  OK
+sum            -51.566483     -51.566482    5.47573e-09  OK
+mean            -7.366640      -7.366641     2.3419e-08  OK
+var           2926.372736    2926.372560    6.02913e-08  OK
+stddev          54.095959      54.095959    1.92003e-09  OK
+min            -73.133064     -73.133064    4.09944e-10  OK
+max             88.497307      88.497307    2.68149e-10  OK
+
+RESULTADO GENERAL: PASA
+===== scalar | caso 8 =====
+N        = 8
+Suma     = 53.395973
+Media    = 6.674497
+Varianza = 2317.952148
+StdDev   = 48.145115
+Minimo   = -71.883255
+Maximo   = 84.502472
+Tiempo promedio del kernel (1 rep.): 0.000183 ms
+Desv. estandar del tiempo         : 0.000000 ms
+Ciclos TSC promedio del kernel    : 323 +- 0
+campo          referencia       obtenido     error rel.  resultado
+n                8.000000       8.000000              0  OK
+sum             53.395975      53.395973    3.58251e-08  OK
+mean             6.674497       6.674497    3.58251e-08  OK
+var           2317.952210    2317.952150     2.5802e-08  OK
+stddev          48.145116      48.145115    2.61165e-08  OK
+min            -71.883255     -71.883255    6.79269e-11  OK
+max             84.502472      84.502472    2.81981e-10  OK
+
+RESULTADO GENERAL: PASA
+===== scalar | caso 15 =====
+N        = 15
+Suma     = -388.095825
+Media    = -25.873055
+Varianza = 3075.601562
+StdDev   = 55.458107
+Minimo   = -93.900116
+Maximo   = 96.742149
+Tiempo promedio del kernel (1 rep.): 0.000213 ms
+Desv. estandar del tiempo         : 0.000000 ms
+Ciclos TSC promedio del kernel    : 289 +- 0
+campo          referencia       obtenido     error rel.  resultado
+n               15.000000      15.000000              0  OK
+sum           -388.095874    -388.095825    1.25826e-07  OK
+mean           -25.873058     -25.873054    1.45152e-07  OK
+var           3075.601416    3075.601560    4.67844e-08  OK
+stddev          55.458105      55.458107    3.51011e-08  OK
+min            -93.900116     -93.900116      3.536e-10  OK
+max             96.742149      96.742149    4.85545e-10  OK
+
+RESULTADO GENERAL: PASA
+===== scalar | caso 16 =====
+N        = 16
+Suma     = -282.245300
+Media    = -17.640331
+Varianza = 4316.425293
+StdDev   = 65.699509
+Minimo   = -99.146660
+Maximo   = 97.488228
+Tiempo promedio del kernel (1 rep.): 0.000193 ms
+Desv. estandar del tiempo         : 0.000000 ms
+Ciclos TSC promedio del kernel    : 276 +- 0
+campo          referencia       obtenido     error rel.  resultado
+n               16.000000      16.000000              0  OK
+sum           -282.245279    -282.245300    7.32975e-08  OK
+mean           -17.640330     -17.640331    7.61319e-08  OK
+var           4316.425771    4316.425290    1.11411e-07  OK
+stddev          65.699511      65.699509    3.79339e-08  OK
+min            -99.146660     -99.146660    4.93469e-10  OK
+max             97.488228      97.488228    4.53781e-10  OK
+
+RESULTADO GENERAL: PASA
+===== scalar | caso 1000 =====
+N        = 1000
+Suma     = 494.323303
+Media    = 0.494323
+Varianza = 3307.273438
+StdDev   = 57.508900
+Minimo   = -99.862144
+Maximo   = 99.987244
+Tiempo promedio del kernel (1 rep.): 0.004040 ms
+Desv. estandar del tiempo         : 0.000000 ms
+Ciclos TSC promedio del kernel    : 9602 +- 0
+campo          referencia       obtenido     error rel.  resultado
+n             1000.000000    1000.000000              0  OK
+sum            494.323443     494.323303    2.82935e-07  OK
+mean             0.494323       0.494323    2.62705e-07  OK
+var           3307.273359    3307.273440    2.43958e-08  OK
+stddev          57.508898      57.508900    2.80274e-08  OK
+min            -99.862144     -99.862144    2.98263e-10  OK
+max             99.987244      99.987244    4.76623e-10  OK
+
+RESULTADO GENERAL: PASA
+===== scalar | caso const =====
+N        = 1000
+Suma     = 5000.000000
+Media    = 5.000000
+Varianza = 0.000000
+StdDev   = 0.000000
+Minimo   = 5.000000
+Maximo   = 5.000000
+Tiempo promedio del kernel (1 rep.): 0.002535 ms
+Desv. estandar del tiempo         : 0.000000 ms
+Ciclos TSC promedio del kernel    : 5995 +- 0
+campo          referencia       obtenido     error rel.  resultado
+n             1000.000000    1000.000000              0  OK
+sum           5000.000000    5000.000000              0  OK
+mean             5.000000       5.000000              0  OK
+var              0.000000       0.000000              0  OK
+stddev           0.000000       0.000000              0  OK
+min              5.000000       5.000000              0  OK
+max              5.000000       5.000000              0  OK
+
+RESULTADO GENERAL: PASA
+===== scalar | caso const01 =====
+N        = 1001
+Suma     = 100.099045
+Media    = 0.100000
+Varianza = 0.000000
+StdDev   = 0.000000
+Minimo   = 0.100000
+Maximo   = 0.100000
+Tiempo promedio del kernel (1 rep.): 0.002556 ms
+Desv. estandar del tiempo         : 0.000000 ms
+Ciclos TSC promedio del kernel    : 5932 +- 0
+campo          referencia       obtenido     error rel.  resultado
+n             1001.000000    1001.000000              0  OK
+sum            100.100001     100.099045    9.55536e-06  OK
+mean             0.100000       0.100000    4.90116e-09  OK
+var              0.000000       0.000000              0  OK
+stddev           0.000000       0.000000              0  OK
+min              0.100000       0.100000    4.90116e-09  OK
+max              0.100000       0.100000    4.90116e-09  OK
+
+RESULTADO GENERAL: PASA
+===== scalar | caso neg =====
+N        = 1001
+Suma     = -486582.000000
+Media    = -486.095917
+Varianza = 85405.515625
+StdDev   = 292.242218
+Minimo   = -999.404175
+Maximo   = -1.217111
+Tiempo promedio del kernel (1 rep.): 0.004027 ms
+Desv. estandar del tiempo         : 0.000000 ms
+Ciclos TSC promedio del kernel    : 9602 +- 0
+campo          referencia       obtenido     error rel.  resultado
+n             1001.000000    1001.000000              0  OK
+sum        -486582.156615 -486582.000000    3.21867e-07  OK
+mean          -486.096061    -486.095917    2.95321e-07  OK
+var          85405.510611   85405.515600    5.84184e-08  OK
+stddev         292.242212     292.242218    1.97342e-08  OK
+min           -999.404175    -999.404175    1.95429e-10  OK
+max             -1.217111      -1.217111    3.81297e-09  OK
+
+RESULTADO GENERAL: PASA
+===== scalar | caso ext =====
+N        = 1001
+Suma     = -212958205251158016.000000
+Media    = -212745467199488.000000
+Varianza = 36895535916641802961993305423872.000000
+StdDev   = 6074169309528064.000000
+Minimo   = -9974029679067136.000000
+Maximo   = 9970231854235648.000000
+Tiempo promedio del kernel (1 rep.): 0.004190 ms
+Desv. estandar del tiempo         : 0.000000 ms
+Ciclos TSC promedio del kernel    : 9934 +- 0
+campo          referencia       obtenido     error rel.  resultado
+n             1001.000000    1001.000000              0  OK
+sum       -212958238134501376.000000-212958205000000000.000000    1.55592e-07  OK
+mean      -212745492641859.531250-212745467000000.000000    1.20528e-07  OK
+var       36895532900608757592086424846336.00000036895535899999998036142419083264.000000    8.12942e-08  OK
+stddev    6074169317742860.0000006074169310000000.000000    1.27472e-09  OK
+min       -9974029679067136.000000-9974029680000000.000000    9.35293e-11  OK
+max       9970231854235648.0000009970231850000000.000000    4.24829e-10  OK
+
+RESULTADO GENERAL: PASA
+===== vector | caso 0 =====
+Aviso: N = 0, el arreglo esta vacio. Los estadisticos se reportan como 0.
+N        = 0
+Suma     = 0.000000
+Media    = 0.000000
+Varianza = 0.000000
+StdDev   = 0.000000
+Minimo   = 0.000000
+Maximo   = 0.000000
+Tiempo promedio del kernel (1 rep.): 0.000128 ms
+Desv. estandar del tiempo         : 0.000000 ms
+Ciclos TSC promedio del kernel    : 159 +- 0
+campo          referencia       obtenido     error rel.  resultado
+n                0.000000       0.000000              0  OK
+sum              0.000000       0.000000              0  OK
+mean             0.000000       0.000000              0  OK
+var              0.000000       0.000000              0  OK
+stddev           0.000000       0.000000              0  OK
+min              0.000000       0.000000              0  OK
+max              0.000000       0.000000              0  OK
+
+RESULTADO GENERAL: PASA
+===== vector | caso 1 =====
+N        = 1
+Suma     = -48.975803
+Media    = -48.975803
+Varianza = 0.000000
+StdDev   = 0.000000
+Minimo   = -48.975803
+Maximo   = -48.975803
+Tiempo promedio del kernel (1 rep.): 0.000194 ms
+Desv. estandar del tiempo         : 0.000000 ms
+Ciclos TSC promedio del kernel    : 216 +- 0
+campo          referencia       obtenido     error rel.  resultado
+n                1.000000       1.000000              0  OK
+sum            -48.975803     -48.975803    5.05471e-10  OK
+mean           -48.975803     -48.975803    5.05471e-10  OK
+var              0.000000       0.000000              0  OK
+stddev           0.000000       0.000000              0  OK
+min            -48.975803     -48.975803    5.05471e-10  OK
+max            -48.975803     -48.975803    5.05471e-10  OK
+
+RESULTADO GENERAL: PASA
+===== vector | caso 7 =====
+N        = 7
+Suma     = -51.566483
+Media    = -7.366641
+Varianza = 2926.372559
+StdDev   = 54.095959
+Minimo   = -73.133064
+Maximo   = 88.497307
+Tiempo promedio del kernel (1 rep.): 0.000179 ms
+Desv. estandar del tiempo         : 0.000000 ms
+Ciclos TSC promedio del kernel    : 277 +- 0
+campo          referencia       obtenido     error rel.  resultado
+n                7.000000       7.000000              0  OK
+sum            -51.566483     -51.566482    5.47573e-09  OK
+mean            -7.366640      -7.366641     2.3419e-08  OK
+var           2926.372736    2926.372560    6.02913e-08  OK
+stddev          54.095959      54.095959    1.92003e-09  OK
+min            -73.133064     -73.133064    4.09944e-10  OK
+max             88.497307      88.497307    2.68149e-10  OK
+
+RESULTADO GENERAL: PASA
+===== vector | caso 8 =====
+N        = 8
+Suma     = 53.395981
+Media    = 6.674498
+Varianza = 2317.952148
+StdDev   = 48.145115
+Minimo   = -71.883255
+Maximo   = 84.502472
+Tiempo promedio del kernel (1 rep.): 0.000151 ms
+Desv. estandar del tiempo         : 0.000000 ms
+Ciclos TSC promedio del kernel    : 205 +- 0
+campo          referencia       obtenido     error rel.  resultado
+n                8.000000       8.000000              0  OK
+sum             53.395975      53.395981    1.06508e-07  OK
+mean             6.674497       6.674498    1.06508e-07  OK
+var           2317.952210    2317.952150     2.5802e-08  OK
+stddev          48.145116      48.145115    2.61165e-08  OK
+min            -71.883255     -71.883255    6.79269e-11  OK
+max             84.502472      84.502472    2.81981e-10  OK
+
+RESULTADO GENERAL: PASA
+===== vector | caso 15 =====
+N        = 15
+Suma     = -388.095886
+Media    = -25.873058
+Varianza = 3075.601562
+StdDev   = 55.458107
+Minimo   = -93.900116
+Maximo   = 96.742149
+Tiempo promedio del kernel (1 rep.): 0.000227 ms
+Desv. estandar del tiempo         : 0.000000 ms
+Ciclos TSC promedio del kernel    : 366 +- 0
+campo          referencia       obtenido     error rel.  resultado
+n               15.000000      15.000000              0  OK
+sum           -388.095874    -388.095886    3.13513e-08  OK
+mean           -25.873058     -25.873058    1.71941e-09  OK
+var           3075.601416    3075.601560    4.67844e-08  OK
+stddev          55.458105      55.458107    3.51011e-08  OK
+min            -93.900116     -93.900116      3.536e-10  OK
+max             96.742149      96.742149    4.85545e-10  OK
+
+RESULTADO GENERAL: PASA
+===== vector | caso 16 =====
+N        = 16
+Suma     = -282.245270
+Media    = -17.640329
+Varianza = 4316.425781
+StdDev   = 65.699509
+Minimo   = -99.146660
+Maximo   = 97.488228
+Tiempo promedio del kernel (1 rep.): 0.000159 ms
+Desv. estandar del tiempo         : 0.000000 ms
+Ciclos TSC promedio del kernel    : 244 +- 0
+campo          referencia       obtenido     error rel.  resultado
+n               16.000000      16.000000              0  OK
+sum           -282.245279    -282.245270    3.29931e-08  OK
+mean           -17.640330     -17.640329    3.15758e-08  OK
+var           4316.425771    4316.425780    2.10839e-09  OK
+stddev          65.699511      65.699509    3.79339e-08  OK
+min            -99.146660     -99.146660    4.93469e-10  OK
+max             97.488228      97.488228    4.53781e-10  OK
+
+RESULTADO GENERAL: PASA
+===== vector | caso 1000 =====
+N        = 1000
+Suma     = 494.323761
+Media    = 0.494324
+Varianza = 3307.273193
+StdDev   = 57.508896
+Minimo   = -99.862144
+Maximo   = 99.987244
+Tiempo promedio del kernel (1 rep.): 0.000843 ms
+Desv. estandar del tiempo         : 0.000000 ms
+Ciclos TSC promedio del kernel    : 1898 +- 0
+campo          referencia       obtenido     error rel.  resultado
+n             1000.000000    1000.000000              0  OK
+sum            494.323443     494.323761    6.43584e-07  OK
+mean             0.494323       0.494324    6.41561e-07  OK
+var           3307.273359    3307.273190    5.11952e-08  OK
+stddev          57.508898      57.508896    3.80494e-08  OK
+min            -99.862144     -99.862144    2.98263e-10  OK
+max             99.987244      99.987244    4.76623e-10  OK
+
+RESULTADO GENERAL: PASA
+===== vector | caso const =====
+N        = 1000
+Suma     = 5000.000000
+Media    = 5.000000
+Varianza = 0.000000
+StdDev   = 0.000000
+Minimo   = 5.000000
+Maximo   = 5.000000
+Tiempo promedio del kernel (1 rep.): 0.000458 ms
+Desv. estandar del tiempo         : 0.000000 ms
+Ciclos TSC promedio del kernel    : 964 +- 0
+campo          referencia       obtenido     error rel.  resultado
+n             1000.000000    1000.000000              0  OK
+sum           5000.000000    5000.000000              0  OK
+mean             5.000000       5.000000              0  OK
+var              0.000000       0.000000              0  OK
+stddev           0.000000       0.000000              0  OK
+min              5.000000       5.000000              0  OK
+max              5.000000       5.000000              0  OK
+
+RESULTADO GENERAL: PASA
+===== vector | caso const01 =====
+N        = 1001
+Suma     = 100.100090
+Media    = 0.100000
+Varianza = 0.000000
+StdDev   = 0.000000
+Minimo   = 0.100000
+Maximo   = 0.100000
+Tiempo promedio del kernel (1 rep.): 0.000534 ms
+Desv. estandar del tiempo         : 0.000000 ms
+Ciclos TSC promedio del kernel    : 1147 +- 0
+campo          referencia       obtenido     error rel.  resultado
+n             1001.000000    1001.000000              0  OK
+sum            100.100001     100.100090      8.842e-07  OK
+mean             0.100000       0.100000    4.90116e-09  OK
+var              0.000000       0.000000              0  OK
+stddev           0.000000       0.000000              0  OK
+min              0.100000       0.100000    4.90116e-09  OK
+max              0.100000       0.100000    4.90116e-09  OK
+
+RESULTADO GENERAL: PASA
+===== vector | caso neg =====
+N        = 1001
+Suma     = -486582.156250
+Media    = -486.096069
+Varianza = 85405.515625
+StdDev   = 292.242218
+Minimo   = -999.404175
+Maximo   = -1.217111
+Tiempo promedio del kernel (1 rep.): 0.001194 ms
+Desv. estandar del tiempo         : 0.000000 ms
+Ciclos TSC promedio del kernel    : 2729 +- 0
+campo          referencia       obtenido     error rel.  resultado
+n             1001.000000    1001.000000              0  OK
+sum        -486582.156615 -486582.156000    1.26347e-09  OK
+mean          -486.096061    -486.096069    1.73747e-08  OK
+var          85405.510611   85405.515600    5.84184e-08  OK
+stddev         292.242212     292.242218    1.97342e-08  OK
+min           -999.404175    -999.404175    1.95429e-10  OK
+max             -1.217111      -1.217111    3.81297e-09  OK
+
+RESULTADO GENERAL: PASA
+===== vector | caso ext =====
+N        = 1001
+Suma     = -212958239610896384.000000
+Media    = -212745500753920.000000
+Varianza = 36895531080938524503476606599168.000000
+StdDev   = 6074169309528064.000000
+Minimo   = -9974029679067136.000000
+Maximo   = 9970231854235648.000000
+Tiempo promedio del kernel (1 rep.): 0.000761 ms
+Desv. estandar del tiempo         : 0.000000 ms
+Ciclos TSC promedio del kernel    : 1677 +- 0
+campo          referencia       obtenido     error rel.  resultado
+n             1001.000000    1001.000000              0  OK
+sum       -212958238134501376.000000-212958240000000000.000000    8.75993e-09  OK
+mean      -212745492641859.531250-212745501000000.000000     3.9287e-08  OK
+var       36895532900608757592086424846336.00000036895531100000000919122976178176.000000    4.88029e-08  OK
+stddev    6074169317742860.0000006074169310000000.000000    1.27472e-09  OK
+min       -9974029679067136.000000-9974029680000000.000000    9.35293e-11  OK
+max       9970231854235648.0000009970231850000000.000000    4.24829e-10  OK
+
+RESULTADO GENERAL: PASA

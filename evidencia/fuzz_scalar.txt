@@ -1,0 +1,1 @@
+casos=1505 fallas=0  peor_err_rel_stats=6.36e-05  peor_err_norm=2.98e-06  (mal condicionado: 0.00227)

@@ -1,0 +1,42 @@
+===== scalar | extremos 1e18 =====
+N        = 1001
+Suma     = 4722580562181619712.000000
+Media    = 4717862660866048.000000
+Varianza = inf
+StdDev   = inf
+Minimo   = -999104844402786304.000000
+Maximo   = 998429812982808576.000000
+Tiempo promedio del kernel (1 rep.): 0.004061 ms
+Desv. estandar del tiempo         : 0.000000 ms
+Ciclos TSC promedio del kernel    : 9637 +- 0
+campo          referencia       obtenido     error rel.  resultado
+n             1001.000000    1001.000000              0  OK
+sum       4722575167702695936.0000004722580560000000000.000000    1.14181e-06  OK
+mean      4717857310392304.0000004717862660000000.000000    1.13391e-06  OK
+var       379255623973109134242531569024630784.000000            inf            inf  FALLA
+stddev    615837335644006784.000000            inf            inf  FALLA
+min       -999104844402786304.000000-999104844000000000.000000    4.03147e-10  OK
+max       998429812982808576.000000998429813000000000.000000    1.72185e-11  OK
+
+RESULTADO GENERAL: FALLA
+===== vector | extremos 1e18 =====
+N        = 1001
+Suma     = 4722567368042086400.000000
+Media    = 4717849775964160.000000
+Varianza = inf
+StdDev   = inf
+Minimo   = -999104844402786304.000000
+Maximo   = 998429812982808576.000000
+Tiempo promedio del kernel (1 rep.): 0.000842 ms
+Desv. estandar del tiempo         : 0.000000 ms
+Ciclos TSC promedio del kernel    : 1890 +- 0
+campo          referencia       obtenido     error rel.  resultado
+n             1001.000000    1001.000000              0  OK
+sum       4722575167702695936.0000004722567370000000000.000000    1.65115e-06  OK
+mean      4717857310392304.0000004717849780000000.000000    1.59615e-06  OK
+var       379255623973109134242531569024630784.000000            inf            inf  FALLA
+stddev    615837335644006784.000000            inf            inf  FALLA
+min       -999104844402786304.000000-999104844000000000.000000    4.03147e-10  OK
+max       998429812982808576.000000998429813000000000.000000    1.72185e-11  OK
+
+RESULTADO GENERAL: FALLA

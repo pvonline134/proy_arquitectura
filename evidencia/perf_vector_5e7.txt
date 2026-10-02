@@ -1,0 +1,13 @@
+
+ Performance counter stats for './bin/norm_vector data/bench/in_50000000.dat /tmp/o.dat 30':
+
+     7 889 290 296      cycles                                                                
+     6 374 922 175      instructions                                                          
+       446 934 382      cache-misses                                                          
+
+       2,102526907 seconds time elapsed
+
+       1,782847000 seconds user
+       0,193766000 seconds sys
+
+

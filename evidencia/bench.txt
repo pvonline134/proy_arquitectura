@@ -1,0 +1,7 @@
+N=      1000  escalar=    0.0038 ±   0.0000 ms (9062 ciclos)   vectorial=    0.0006 ±   0.0000 ms (1357 ciclos)   speedup= 6.42x
+N=    100000  escalar=    0.3996 ±   0.0049 ms (966407 ciclos)   vectorial=    0.0565 ±   0.0013 ms (136530 ciclos)   speedup= 7.08x
+N=   1000000  escalar=    3.7351 ±   0.1829 ms (9033897 ciclos)   vectorial=    0.6728 ±   0.0999 ms (1626263 ciclos)   speedup= 5.55x
+N=  50000000  escalar=  184.6577 ±   2.2486 ms (446659750 ciclos)   vectorial=   59.2665 ±   1.2203 ms (143353188 ciclos)   speedup= 3.12x
+
+Tabla guardada en data/bench/resultados.csv
+Grafico guardado en data/bench/speedup.png
