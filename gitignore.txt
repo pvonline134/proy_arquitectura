@@ -1,0 +1,30 @@
+# --- Compilacion (se regenera con make) ---
+bin/
+obj/
+*.o
+
+# --- Datos generados (se regeneran con tools/gen_input.py y tools/bench.py) ---
+# Los archivos de N = 5e7 pesan 200 MB cada uno: GitHub rechaza archivos > 100 MB.
+data/
+
+# --- Evidencia de corridas anteriores (regenerar_evidencia.sh las renombra) ---
+evidencia_anterior_*/
+
+# --- Ejecutables de prueba sueltos en la raiz ---
+/test_stats
+/test_norm
+/test_stats_esc
+/test_norm_esc
+/fuzz
+/fuzz_*
+
+# --- Python ---
+__pycache__/
+*.pyc
+
+# --- Editores y sistema operativo ---
+.vscode/
+.idea/
+*.swp
+*~
+.DS_Store
